@@ -6,16 +6,25 @@
 //
 
 import SwiftUI
+import DesignSystem
 
 struct ContentView: View {
+    @EnvironmentObject var maestro: Maestro
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationSplitView(sidebar: {
+            Sidebar().padding()
+        }, detail: {
+            if maestro.currentDocument != nil {
+                DocumentView(doc: maestro.currentDocument!)
+            } else {
+                Text("No selected document.")
+            }
+        }).toolbar {
+            ToolbarItem(placement: .navigation) {
+                Text(maestro.currentDocument?.title ?? "No document selected.").font(Font.DesignSystem.headline3)
+            }
         }
-        .padding()
+        .navigationTitle("")
     }
 }
 

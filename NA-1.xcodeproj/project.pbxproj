@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9109A7F2AA22CEE00EC9C63 /* Boutique in Frameworks */ = {isa = PBXBuildFile; productRef = E9109A7E2AA22CEE00EC9C63 /* Boutique */; };
 		E91646E92AA0160D00BF2C8B /* NA_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91646E82AA0160D00BF2C8B /* NA_1App.swift */; };
 		E91646EB2AA0160D00BF2C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91646EA2AA0160D00BF2C8B /* ContentView.swift */; };
 		E91646ED2AA0161400BF2C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91646EC2AA0161400BF2C8B /* Assets.xcassets */; };
 		E91646F12AA0161400BF2C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91646F02AA0161400BF2C8B /* Preview Assets.xcassets */; };
+		E947AB0C2AA1430A00A1A635 /* Maestro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947AB0B2AA1430A00A1A635 /* Maestro.swift */; };
+		E947AB102AA1526700A1A635 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947AB0F2AA1526700A1A635 /* Sidebar.swift */; };
+		E947AB122AA1541300A1A635 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947AB112AA1541300A1A635 /* BlockView.swift */; };
+		E96A64032AA0AAE300A04C51 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A64022AA0AAE300A04C51 /* Block.swift */; };
+		E97B179B2AAE807B006E9214 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = E97B179A2AAE807B006E9214 /* DesignSystem */; };
+		E990627E2AA0176A00FEA18E /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99062722AA0176A00FEA18E /* Workspace.swift */; };
+		E990627F2AA0176A00FEA18E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99062732AA0176A00FEA18E /* Document.swift */; };
+		E99062812AA0181400FEA18E /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99062802AA0181400FEA18E /* Label.swift */; };
+		E99062862AA0193E00FEA18E /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99062852AA0193E00FEA18E /* DocumentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,15 @@
 		E91646EC2AA0161400BF2C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91646EE2AA0161400BF2C8B /* NA_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NA_1.entitlements; sourceTree = "<group>"; };
 		E91646F02AA0161400BF2C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E947AB0B2AA1430A00A1A635 /* Maestro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maestro.swift; sourceTree = "<group>"; };
+		E947AB0F2AA1526700A1A635 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		E947AB112AA1541300A1A635 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		E96A64022AA0AAE300A04C51 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		E97B17982AAE803B006E9214 /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DesignSystem; path = ../../../../Downloads/DesignSystem; sourceTree = "<group>"; };
+		E99062722AA0176A00FEA18E /* Workspace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workspace.swift; sourceTree = "<group>"; };
+		E99062732AA0176A00FEA18E /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		E99062802AA0181400FEA18E /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		E99062852AA0193E00FEA18E /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9109A7F2AA22CEE00EC9C63 /* Boutique in Frameworks */,
+				E97B179B2AAE807B006E9214 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,7 @@
 			children = (
 				E91646E72AA0160D00BF2C8B /* NA-1 */,
 				E91646E62AA0160D00BF2C8B /* Products */,
+				E97B17992AAE807B006E9214 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +74,7 @@
 		E91646E72AA0160D00BF2C8B /* NA-1 */ = {
 			isa = PBXGroup;
 			children = (
+				E99062642AA0175F00FEA18E /* Shared */,
 				E91646E82AA0160D00BF2C8B /* NA_1App.swift */,
 				E91646EA2AA0160D00BF2C8B /* ContentView.swift */,
 				E91646EC2AA0161400BF2C8B /* Assets.xcassets */,
@@ -67,6 +90,70 @@
 				E91646F02AA0161400BF2C8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E947AB0A2AA142F600A1A635 /* Services and Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E947AB0B2AA1430A00A1A635 /* Maestro.swift */,
+			);
+			path = "Services and Managers";
+			sourceTree = "<group>";
+		};
+		E947AB0D2AA1432600A1A635 /* Model Views */ = {
+			isa = PBXGroup;
+			children = (
+				E99062852AA0193E00FEA18E /* DocumentView.swift */,
+				E947AB112AA1541300A1A635 /* BlockView.swift */,
+			);
+			path = "Model Views";
+			sourceTree = "<group>";
+		};
+		E947AB0E2AA1524C00A1A635 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E947AB0F2AA1526700A1A635 /* Sidebar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E97B17992AAE807B006E9214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E99062642AA0175F00FEA18E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E97B17982AAE803B006E9214 /* DesignSystem */,
+				E947AB0A2AA142F600A1A635 /* Services and Managers */,
+				E99062842AA0193100FEA18E /* Views */,
+				E99062712AA0176A00FEA18E /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E99062712AA0176A00FEA18E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E99062722AA0176A00FEA18E /* Workspace.swift */,
+				E99062732AA0176A00FEA18E /* Document.swift */,
+				E99062802AA0181400FEA18E /* Label.swift */,
+				E96A64022AA0AAE300A04C51 /* Block.swift */,
+			);
+			name = Models;
+			path = "NA-1/Models";
+			sourceTree = SOURCE_ROOT;
+		};
+		E99062842AA0193100FEA18E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E947AB0E2AA1524C00A1A635 /* Main */,
+				E947AB0D2AA1432600A1A635 /* Model Views */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +172,10 @@
 			dependencies = (
 			);
 			name = "NA-1";
+			packageProductDependencies = (
+				E9109A7E2AA22CEE00EC9C63 /* Boutique */,
+				E97B179A2AAE807B006E9214 /* DesignSystem */,
+			);
 			productName = "NA-1";
 			productReference = E91646E52AA0160D00BF2C8B /* NA-1.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +204,9 @@
 				Base,
 			);
 			mainGroup = E91646DC2AA0160D00BF2C8B;
+			packageReferences = (
+				E9109A7D2AA22CEE00EC9C63 /* XCRemoteSwiftPackageReference "Boutique" */,
+			);
 			productRefGroup = E91646E62AA0160D00BF2C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +234,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91646EB2AA0160D00BF2C8B /* ContentView.swift in Sources */,
+				E96A64032AA0AAE300A04C51 /* Block.swift in Sources */,
+				E99062812AA0181400FEA18E /* Label.swift in Sources */,
 				E91646E92AA0160D00BF2C8B /* NA_1App.swift in Sources */,
+				E990627F2AA0176A00FEA18E /* Document.swift in Sources */,
+				E99062862AA0193E00FEA18E /* DocumentView.swift in Sources */,
+				E947AB122AA1541300A1A635 /* BlockView.swift in Sources */,
+				E947AB0C2AA1430A00A1A635 /* Maestro.swift in Sources */,
+				E947AB102AA1526700A1A635 /* Sidebar.swift in Sources */,
+				E990627E2AA0176A00FEA18E /* Workspace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +461,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9109A7D2AA22CEE00EC9C63 /* XCRemoteSwiftPackageReference "Boutique" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mergesort/Boutique.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9109A7E2AA22CEE00EC9C63 /* Boutique */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9109A7D2AA22CEE00EC9C63 /* XCRemoteSwiftPackageReference "Boutique" */;
+			productName = Boutique;
+		};
+		E97B179A2AAE807B006E9214 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E91646DD2AA0160D00BF2C8B /* Project object */;
 }

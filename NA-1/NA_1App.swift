@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct NA_1App: App {
+    @StateObject var maestro = Maestro()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            ContentView().environmentObject(maestro)
+        }.windowToolbarStyle(.unified)
     }
 }
