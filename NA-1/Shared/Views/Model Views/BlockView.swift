@@ -23,8 +23,10 @@ struct BlockView: View {
                     .onChange(of: text) {
                         print($0)
                         Task {
-                            try await maestro.blockStore.remove(block)
+                            let block = Block(id: block.id, type: block.type, content: text, prev: block.prev, next: block.next, graveyard: block.graveyard, createdAt: block.createdAt, modifiedAt: Date(), document: block.document)
+                            try await maestro.blockStore.remove(self.block)
                             try await maestro.blockStore.insert(block)
+                            print(block)
                         }
                     }
             case .heading1:

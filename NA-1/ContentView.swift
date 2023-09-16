@@ -18,6 +18,9 @@ struct ContentView: View {
                 DocumentView(doc: maestro.currentDocument!)
             } else {
                 Text("No selected document.")
+                ForEach(maestro.blocks) { block in
+                    Text(block.content)
+                }
             }
         }).toolbar {
             ToolbarItem(placement: .navigation) {

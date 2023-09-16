@@ -18,7 +18,7 @@ enum BlockType: String, Codable {
     case contentLink
 }
 
-struct Block: Codable {
+struct Block: Codable, Identifiable {
     let id: String
     let type: BlockType
     var content: String
